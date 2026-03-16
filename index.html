@@ -2,9 +2,10 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<title>Alt-RH | Formation et Conseil</title>
+<title>Alt-RH | Conseil & Formation</title>
 
 <style>
+
 body{
 font-family: Arial, sans-serif;
 margin:0;
@@ -15,17 +16,19 @@ color:#333;
 header{
 background:#0b3a5b;
 color:white;
-padding:40px;
+padding:60px 20px;
 text-align:center;
+border-bottom:6px solid #ff7a00;
 }
 
 header h1{
 margin:0;
-font-size:36px;
+font-size:38px;
+letter-spacing:1px;
 }
 
 header p{
-margin-top:10px;
+margin-top:12px;
 font-size:18px;
 opacity:0.9;
 }
@@ -33,7 +36,7 @@ opacity:0.9;
 .container{
 max-width:1000px;
 margin:auto;
-padding:40px 20px;
+padding:50px 20px;
 }
 
 .hero{
@@ -49,6 +52,8 @@ color:#0b3a5b;
 .hero p{
 font-size:18px;
 line-height:1.6;
+max-width:700px;
+margin:auto;
 }
 
 .services{
@@ -60,15 +65,22 @@ margin-top:40px;
 
 .service{
 flex:1;
-min-width:250px;
+min-width:260px;
 background:white;
-padding:25px;
+padding:30px;
 border-radius:8px;
 box-shadow:0 4px 10px rgba(0,0,0,0.05);
+border-top:4px solid #ff7a00;
+transition:transform .2s;
+}
+
+.service:hover{
+transform:translateY(-4px);
 }
 
 .service h3{
 color:#0b3a5b;
+margin-top:0;
 }
 
 .contact{
@@ -76,25 +88,35 @@ text-align:center;
 margin-top:60px;
 }
 
+.contact h3{
+color:#0b3a5b;
+}
+
 .contact a{
 display:inline-block;
 margin-top:15px;
-padding:12px 20px;
-background:#0b3a5b;
+padding:14px 26px;
+background:#ff7a00;
 color:white;
 text-decoration:none;
-border-radius:5px;
+border-radius:6px;
+font-weight:bold;
+transition:background .2s;
+}
+
+.contact a:hover{
+background:#e66d00;
 }
 
 footer{
 text-align:center;
 padding:30px;
 background:#eee;
-margin-top:60px;
+margin-top:70px;
 font-size:14px;
 }
-</style>
 
+</style>
 </head>
 
 <body>
@@ -109,33 +131,34 @@ font-size:14px;
 <div class="hero">
 <h2>Notre site évolue</h2>
 <p>
-Nous travaillons actuellement à la mise en ligne d'une nouvelle version du site Alt-RH afin d'améliorer l'accès à nos formations et à nos services.
+Nous préparons actuellement une nouvelle version du site Alt-RH afin d'améliorer l'accès à nos formations et à nos services.
 </p>
+
 <p>
-Nos équipes restent disponibles pour toute demande d'information.
+Pendant cette transition, nos équipes restent bien entendu disponibles pour vous accompagner.
 </p>
 </div>
 
 <div class="services">
 
 <div class="service">
-<h3>Formation</h3>
+<h3>Formation professionnelle</h3>
 <p>
-Programmes de formation professionnelle dans les domaines du numérique, du management et de la transformation des organisations.
+Programmes de formation dans les domaines du numérique, du management et du développement des compétences.
 </p>
 </div>
 
 <div class="service">
 <h3>Transformation digitale</h3>
 <p>
-Accompagnement des entreprises dans l'évolution de leurs outils, de leurs processus et de leurs compétences.
+Accompagnement des organisations dans leurs projets numériques, leurs outils et leurs évolutions métiers.
 </p>
 </div>
 
 <div class="service">
 <h3>Conseil RH</h3>
 <p>
-Expertise en développement des compétences, ingénierie pédagogique et structuration des parcours de formation.
+Expertise en ingénierie pédagogique, structuration de parcours de formation et développement des compétences.
 </p>
 </div>
 
@@ -143,14 +166,18 @@ Expertise en développement des compétences, ingénierie pédagogique et struct
 
 <div class="contact">
 <h3>Nous contacter</h3>
-<p>Email : contact@alt-rh.com</p>
-<a href="mailto:contact@alt-rh.com">Envoyer un message</a>
+<p>contact@alt-rh.com</p>
+
+<a href="mailto:contact@alt-rh.com">
+Envoyer un message
+</a>
+
 </div>
 
 </div>
 
 <footer>
-© Alt-RH - Tous droits réservés
+© Alt-RH — Tous droits réservés
 </footer>
 
 </body>
